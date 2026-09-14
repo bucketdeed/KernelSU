@@ -108,8 +108,8 @@ fun HomePagerMaterial(
                     )
                 )
             }
-            if (state.showGkiWarning) {
-                WarningCard(stringResource(id = R.string.home_gki_warning), level = WarningLevel.Notice)
+            //if (state.showGkiWarning) {
+                //WarningCard(stringResource(id = R.string.home_gki_warning), level = WarningLevel.Notice)
             }
             if (state.showUAPIMisMatchWarning) {
                 WarningCard(
